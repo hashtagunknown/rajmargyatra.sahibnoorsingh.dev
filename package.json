@@ -1,0 +1,14 @@
+{
+  "name": "refab-highway-companion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "REFAB — a synthetic-data highway companion prototype",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check refab-app.js && node --check refab-services.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
